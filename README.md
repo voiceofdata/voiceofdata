@@ -2,7 +2,7 @@
 My name is Janice (aka the Voice of Data) 😊
 
 <!--
-**voiceofdata/voiceofdata** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**voiceofdata/voiceofdata** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.>
 
 Welcome to my little corner of GitHub. I'm a Business Intelligence Analyst who believes that data doesn't just inform—it tells a story. My job is to give it voice.
 
