@@ -9,7 +9,7 @@ Welcome to my little corner of GitHub. I'm a Business Intelligence Analyst who b
 - Blend curiosity, logic, and clarity to solve real problems
 
 🛠️ **Tech I use regularly**  
-Power BI • SQL • Excel • ServiceNow Reporting 
+Power BI • PowerQuery • Excel • ServiceNow Reporting 
 
 🌱 **In Progress**  
 - Building out my project portfolio  
