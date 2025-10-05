@@ -16,4 +16,14 @@ Power BI • PowerQuery • Excel • ServiceNow Reporting
 - Launching [voiceofdata.ca](https://voiceofdata.ca/)  
 - Telling better stories with data, one question at a time
 
-Feel free to poke around—more coming soon!
+---
+
+📚 **Case Studies**
+
+I’ve started documenting some of my favourite real-world analytics stories — where curiosity met impact.  
+Each one explores the process behind the dashboards, decisions, and discoveries.
+
+- [Renewals Reporting — SOAR Case Study](case-studies/renewals-reporting.md)
+
+More to come as my portfolio grows!
+
