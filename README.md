@@ -23,7 +23,7 @@ Power BI • PowerQuery • Excel • ServiceNow Reporting
 I’ve started documenting some of my favourite real-world analytics stories — where curiosity met impact.  
 Each one explores the process behind the dashboards, decisions, and discoveries.
 
-- [Renewals Reporting — SOAR Case Study](case-studies/renewals-reporting.md)
+- [Renewals Reporting — SOAR Case Study](data/case-studies/renewals-reporting.md)
 
 More to come as my portfolio grows!
 
