@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+
+        {% if site.description %}
+          <p>{{ site.description }}</p>
+        {% endif %}
+
+        <hr>
+
+        <hr>
+
+        <h3>{{ site.contact.title }}</h3>
+        <ul class="contact-list">
+          <li>📧 <a href="mailto:{{ site.contact.email }}">Email me</a></li>
+          <li>💼 <a href="{{ site.contact.linkedin }}">LinkedIn</a></li>
+        </ul>
+
+
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+      <footer>
+        {% if site.github.is_project_page %}
+          <p><small>Hosted on GitHub Pages</small></p>
+        {% endif %}
+      </footer>
+    </div>
+  </body>
+</html>
