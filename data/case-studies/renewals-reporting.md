@@ -1,6 +1,5 @@
 ---
-title: Renewals Reporting — SOAR Case Study
-permalink: /data/case-studies/renewals-reporting/
+# Renewals Reporting — SOAR Case Study
 ---
 
 > **Working title:** From AE-only visibility to team-wide renewal accountability
