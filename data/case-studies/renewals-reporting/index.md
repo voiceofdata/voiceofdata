@@ -1,6 +1,8 @@
 ---
-# Renewals Reporting — SOAR Case Study
+
 ---
+
+# Renewals Reporting — SOAR Case Study
 
 > **Working title:** From AE-only visibility to team-wide renewal accountability
 >
