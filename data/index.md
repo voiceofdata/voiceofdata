@@ -1,5 +1,5 @@
 ---
-# Data & Analytics
+Data & Analytics
 ---
 
 Dashboards, case studies, and data storytelling.
