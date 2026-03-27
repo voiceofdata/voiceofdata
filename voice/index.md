@@ -1,8 +1,18 @@
 ---
+layout: voice
+title: Voice
 ---
 
-# Voiceover
+# Voice Portfolio
 
-Commercial, narration, and spoken-word work.
+A home for voiceover samples and service details.
 
-_Content coming soon._
+## Featured Samples
+
+- TODO: Add demo reel link
+- TODO: Add 2-3 sample clips (commercial, narration, etc.)
+- TODO: Add booking/contact process
+
+## About This Section
+
+- TODO: Add a short paragraph about your voice style and specialties.

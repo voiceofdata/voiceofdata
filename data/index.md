@@ -1,16 +1,18 @@
 ---
-Title: Data & Analytics
+layout: data
+title: Data
 ---
-# Data & Analytics
 
-Dashboards, case studies, and data storytelling.
+# Data Portfolio
 
-📚 **Case Studies**
+A home for business intelligence, dashboards, and case studies.
 
-I’ve started documenting some of my real-world analytics stories.  
-Each one explores the process behind the dashboards, decisions, and discoveries.
+## Featured Work
 
-- [Renewals Reporting — SOAR Case Study]({{ "/data/case-studies/renewals-reporting/" | relative_url }})
+- TODO: Add your top BI/dashboard project
+- TODO: Add 2-3 case studies with outcomes
+- [Renewals Reporting — SOAR Case Study]({{ '/data/case-studies/renewals-reporting/' | relative_url }})
 
+## About This Section
 
-More to come as my portfolio grows!
+- TODO: Add a short paragraph about your data approach and tools.
