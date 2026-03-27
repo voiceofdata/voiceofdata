@@ -1,15 +1,18 @@
 ---
+layout: default
+title: Home
 ---
 
-# Hi, I’m Janice
+# Welcome
 
-I work at the intersection of analysis and communication, helping information become clear, useful, and deeply human.
+<div class="section-cards">
+  <a class="section-card" href="{{ '/data/' | relative_url }}">
+    <h2>Data</h2>
+    <p>BI and analytics portfolio</p>
+  </a>
 
-## What are you here for?
-
-[📊 **Data & Analytics**](data/)  
-Dashboards, case studies, and data storytelling
-
-[🎙️ **Voiceover**](voice/)  
-Commercial, narration, and spoken-word work
-
+  <a class="section-card" href="{{ '/voice/' | relative_url }}">
+    <h2>Voice</h2>
+    <p>Voiceover portfolio</p>
+  </a>
+</div>
