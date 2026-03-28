@@ -1,19 +1,34 @@
 <header class="site-header">
-  <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+  <div class="site-header-main">
+    <div class="site-header-text">
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
 
-  {% if site.description %}
-    <p class="tagline">{{ site.description }}</p>
-  {% endif %}
+      {% if site.description %}
+        <p class="tagline">{{ site.description }}</p>
+      {% endif %}
+    </div>
 
-  {% if site.contact %}
-    <h2 class="contact-heading">{{ site.contact.title }}</h2>
-    <ul class="contact-list">
-      {% if site.contact.email %}
-        <li>📧 <a href="mailto:{{ site.contact.email }}">Email</a></li>
-      {% endif %}
-      {% if site.contact.linkedin %}
-        <li>💼 <a href="{{ site.contact.linkedin }}">LinkedIn</a></li>
-      {% endif %}
-    </ul>
-  {% endif %}
+    {% if site.contact %}
+      <ul class="contact-list" aria-label="Contact links">
+        {% if site.contact.email %}
+          <li>
+            <a href="mailto:{{ site.contact.email }}" aria-label="Email">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
+                <path d="M3 6.75A2.75 2.75 0 0 1 5.75 4h12.5A2.75 2.75 0 0 1 21 6.75v10.5A2.75 2.75 0 0 1 18.25 20H5.75A2.75 2.75 0 0 1 3 17.25V6.75Zm2.17-.25 6.83 5.34L18.83 6.5H5.17Zm13.33 2.07-5.58 4.37a1.5 1.5 0 0 1-1.84 0L5.5 8.57v8.68c0 .14.11.25.25.25h12.5c.14 0 .25-.11.25-.25V8.57Z"/>
+              </svg>
+            </a>
+          </li>
+        {% endif %}
+        {% if site.contact.linkedin %}
+          <li>
+            <a href="{{ site.contact.linkedin }}" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
+                <path d="M6.2 8.5a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2Zm-1.3 1.6h2.6v8.5H4.9v-8.5Zm4.3 0h2.5v1.2h.04c.35-.66 1.2-1.35 2.46-1.35 2.63 0 3.12 1.72 3.12 3.95v4.72h-2.6v-4.18c0-1-.02-2.29-1.4-2.29-1.4 0-1.62 1.08-1.62 2.21v4.26h-2.5v-8.54Z"/>
+              </svg>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    {% endif %}
+  </div>
 </header>
