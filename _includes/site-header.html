@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="header-top-row">
+    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+
+    {% if site.description %}
+      <p class="tagline">{{ site.description }}</p>
+    {% endif %}
+  </div>
+
+  {% if site.contact %}
+    <ul class="contact-list" aria-label="Contact links">
+      {% if site.contact.email %}
+        <li><a href="mailto:{{ site.contact.email }}" aria-label="Email">✉️</a></li>
+      {% endif %}
+      {% if site.contact.linkedin %}
+        <li><a href="{{ site.contact.linkedin }}" aria-label="LinkedIn">💼</a></li>
+      {% endif %}
+    </ul>
+  {% endif %}
+</header>
