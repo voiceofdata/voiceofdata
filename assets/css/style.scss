@@ -81,6 +81,56 @@ a {
   margin-bottom: 2rem;
 }
 
+.about-me-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem;
+  margin-bottom: 0.45rem;
+}
+
+.about-me-header h1 {
+  margin: 0;
+  line-height: 1.1;
+}
+
+.resume-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  border: 2px solid #38586f;
+  border-radius: 12px;
+  padding: 0.55rem 1.05rem;
+  background: #d5d9dc;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1;
+  box-shadow: 0 2px 5px rgba(15, 23, 42, 0.24);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background-color 0.12s ease;
+}
+
+.resume-button:hover {
+  background: #e2e5e8;
+  box-shadow: 0 3px 8px rgba(15, 23, 42, 0.28);
+}
+
+.resume-button:focus-visible {
+  outline: 3px solid #60a5fa;
+  outline-offset: 2px;
+}
+
+.resume-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.2);
+}
+
+.resume-button svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: currentColor;
+}
+
 /* Landing page cards */
 .section-cards {
   display: grid;
@@ -123,5 +173,10 @@ a {
   .site-header-main {
     flex-wrap: wrap;
     row-gap: 0.75rem;
+  }
+
+  .about-me-header {
+    flex-wrap: wrap;
+    align-items: flex-start;
   }
 }
