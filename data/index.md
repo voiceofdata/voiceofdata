@@ -2,7 +2,7 @@
 layout: data
 title: Data
 ---
-# About Me
+# About Me <a href="{{ '/Janice_Whitson_Resume.pdf' | relative_url }}" download>Download Resume</a>
 Behind every business question is data. I focus on turning that data into answers people can actually use.
 
 Most of my work centers on building practical, reliable reporting that helps teams understand what’s happening, why it’s happening, and where to focus next. I enjoy working with messy or incomplete data and turning it into something clean, structured, and actually usable.
@@ -36,7 +36,3 @@ A home for business intelligence, dashboards, and case studies.
 - TODO: Add your top BI/dashboard project
 - TODO: Add 2-3 case studies with outcomes
 - [Renewals Reporting — SOAR Case Study]({{ '/data/case-studies/renewals-reporting/' | relative_url }})
-
-## About This Section
-
-- TODO: Add a short paragraph about your data approach and tools.
