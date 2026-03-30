@@ -36,12 +36,10 @@ This portfolio is a mix of structured projects and working examples—some are f
 
 Together, they reflect how I approach data problems: starting with messy or incomplete inputs, structuring them into something usable, and building reporting that is clear, scalable, and reliable.
 
-# Data Portfolio
+# Featured Projects
 
-A home for business intelligence, dashboards, and case studies.
-
-## Featured Work
-
-- TODO: Add your top BI/dashboard project
-- TODO: Add 2-3 case studies with outcomes
 - [Renewals Reporting — SOAR Case Study]({{ '/data/case-studies/renewals-reporting/' | relative_url }})
+
+# Approach
+
+# Techstack/Skills
