@@ -19,6 +19,8 @@ title: Projects
           <span class="expertise-tag project-tool-pill">Power BI</span>
           <span class="expertise-tag project-tool-pill">DAX</span>
           <span class="expertise-tag project-tool-pill">Power Query</span>
+          <span class="expertise-tag project-tool-pill">Bookmarks</span>
+          <span class="expertise-tag project-tool-pill">Dynamic titles</span>
           <span class="expertise-tag project-tool-pill">Figma</span>
         </div>
       </div>
