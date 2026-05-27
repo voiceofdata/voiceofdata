@@ -91,7 +91,7 @@ This portfolio is a mix of structured projects and working examples—some are f
       loading="lazy"
     />
     <h3>Sales and Support Productivity</h3>
-    <p>Power BI report built because the COS team had no visibility into their own performance.</p>
+    <p>A Power BI dashboard built over four years because a team had no visibility into their own performance — grew through real stakeholder demand and ended up on the Finance VP's desk.</p>
   </a>
 
   <a class="project-card" href="{{ '/data/case-studies/servicenow-itsm/' | relative_url }}">
