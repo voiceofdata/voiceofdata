@@ -5,10 +5,12 @@
 # Sales and Support Productivity
 
 <div class="project-tools case-study-tools" aria-label="Tools used">
-  <span class="expertise-tag project-tool-pill">Power BI</span>
-  <span class="expertise-tag project-tool-pill">DAX</span>
-  <span class="expertise-tag project-tool-pill">Power Query</span>
-  <span class="expertise-tag project-tool-pill">Figma</span>
+    <span class="expertise-tag project-tool-pill">Power BI</span>
+    <span class="expertise-tag project-tool-pill">DAX</span>
+    <span class="expertise-tag project-tool-pill">Power Query</span>
+    <span class="expertise-tag project-tool-pill">Bookmarks</span>
+    <span class="expertise-tag project-tool-pill">Dynamic titles</span>
+    <span class="expertise-tag project-tool-pill">Figma</span>
 </div>
 
 This report was built over four years at a software reseller, growing from a single landing page into a 13-page, 244-measure dashboard used by AE managers, COS team leads, and eventually the Finance VP. It wasn't scoped that way from the start — it expanded because people found it useful and kept asking for more.
