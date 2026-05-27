@@ -22,3 +22,52 @@ The report was built to be used by people who didn't build it, and that shaped s
 Scope expanded through real stakeholder demand. The Finance VP requested executive summary pages — one for the AE organisation, one for the COS team — giving leadership a single-screen view without needing to navigate the detail pages. A team manager requested the AE Product Mix page to track line of business split at the rep level. Neither was in the original brief. The report stayed coherent despite the additions because the COS support thread runs through every page, including the ones that weren't originally planned.
 
 For the portfolio version, the report was rebuilt from scratch using synthetic data generated via a custom Python script to eliminate anything sensitive. The rebuild used Power BI's PBIP format rather than PBIX, which allows the underlying TMDL files to be edited directly in a text editor. All 244 measures were migrated via find-and-replace on the TMDL files rather than rebuilt through the UI — an approach that's only possible if you understand what's actually inside the file format, and one that reduced what could have been weeks of rework to a single pass.
+
+
+## Screenshots
+
+### Executive AE
+*Leadership summary page showing revenue, GP, and quote/order volume with COS support breakdown across all metrics.*
+![Executive AE](../assets/images/sns-exec-ae.png)
+
+### Executive ClientOps
+*Mirror page from the COS team lens, pre-filtered to a single team.*
+![Executive ClientOps](../assets/images/sns-exec-cos.png)
+
+### Client Ops Summary
+*At-a-glance team comparison with COS count and full metric breakdown per team. No team filter — the columns are structural.*
+![Client Ops Summary](../assets/images/sns-cos-summary.png)
+
+### ClientOps Team Summary
+*Team-level detail with field parameter-driven column selection and bookmark-based table toggle.*
+![ClientOps Team Summary](../assets/images/sns-cos-team-summary.png)
+
+### ClientOps Team Detail
+*Full metric matrix with conditional formatting arrows and QoQ/YoY comparisons per COS/AE pairing.*
+![ClientOps Team Detail](../assets/images/sns-cos-team-detail.png)
+
+### AE Team Summary
+*AE-side equivalent of the Client Ops Summary, with COS support percentage visible on every volume metric.*
+![AE Team Summary](../assets/images/sns-ae-summary.png)
+
+### Account Executives
+*Expandable matrix with context-sensitive percentage denominators shifting by hierarchy level.*
+![Account Executives](../assets/images/sns-account-executives.png)
+
+### AE Team Detail — YoY
+![AE Team Detail YoY](../assets/images/sns-ae-detail-yoy.png)
+
+### AE Team Detail — MoM
+*MoM/YoY toggle implemented via bookmarks and styled buttons — no native toggle exists in Power BI.*
+![AE Team Detail MoM](../assets/images/sns-ae-detail-mom.png)
+
+### AE Sales Qualification Summary
+*DAX-driven qualification classification across Hardware and Software thresholds, with dynamic support assignment indicators.*
+![AE Sales Qualification Summary](../assets/images/sns-qualification-summary.png)
+
+### AE Sales 12 Month Rolling — Full View
+![AE Sales 12 Month Rolling Full](../assets/images/sns-rolling-full.png)
+
+### AE Sales 12 Month Rolling — Single AE
+*Six-state custom icons built in Figma and imported via theme JSON, encoding qualification level and COS assignment status in a single visual element.*
+![AE Sales 12 Month Rolling Single AE](../assets/images/sns-rolling-single.png)
