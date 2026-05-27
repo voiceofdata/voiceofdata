@@ -28,46 +28,94 @@ For the portfolio version, the report was rebuilt from scratch using synthetic d
 
 ### Executive AE
 *Leadership summary page showing revenue, GP, and quote/order volume with COS support breakdown across all metrics.*
-![Executive AE](Productivity%20-%20Exec%20AE.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - Exec AE.png' | relative_url }}"
+  alt="Executive AE"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### Executive ClientOps
 *Mirror page from the COS team lens, pre-filtered to a single team.*
-![Executive ClientOps](Productivity%20-%20Exec%20COS.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - Exec COS.png' | relative_url }}"
+  alt="Executive ClientOps"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### Client Ops Summary
 *At-a-glance team comparison with COS count and full metric breakdown per team. No team filter — the columns are structural.*
-![Client Ops Summary](Productivity%20-%20COS%20Summary.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - COS Summary.png' | relative_url }}"
+  alt="Client Ops Summary"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### ClientOps Team Summary
 *Team-level detail with field parameter-driven column selection and bookmark-based table toggle.*
-![ClientOps Team Summary](Productivity%20-%20COS%20Team%20Summary.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - COS Team Summary.png' | relative_url }}"
+  alt="ClientOps Team Summary"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### ClientOps Team Detail
 *Full metric matrix with conditional formatting arrows and QoQ/YoY comparisons per COS/AE pairing.*
-![ClientOps Team Detail](Productivity%20-%20COS%20Team%20Detail.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - COS Team Detail.png' | relative_url }}"
+  alt="ClientOps Team Detail"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### AE Team Summary
 *AE-side equivalent of the Client Ops Summary, with COS support percentage visible on every volume metric.*
-![AE Team Summary](Productivity%20-%20AE%20Team%20Summary.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - AE Team Summary.png' | relative_url }}"
+  alt="AE Team Summary"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### Account Executives
 *Expandable matrix with context-sensitive percentage denominators shifting by hierarchy level.*
-![Account Executives](Productivity%20-%20AE.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - AE.png' | relative_url }}"
+  alt="Account Executives"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### AE Team Detail — YoY
-![AE Team Detail YoY](Productivity%20-%20AE%20Team%20Detail%20YoY.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - AE Team Detail YoY.png' | relative_url }}"
+  alt="AE Team Detail YoY"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### AE Team Detail — MoM
 *MoM/YoY toggle implemented via bookmarks and styled buttons — no native toggle exists in Power BI.*
-![AE Team Detail MoM](Productivity%20-%20AE%20Team%20Detail%20MoM.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - AE Team Detail MoM.png' | relative_url }}"
+  alt="AE Team Detail MoM"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### AE Sales Qualification Summary
 *DAX-driven qualification classification across Hardware and Software thresholds, with dynamic support assignment indicators.*
-![AE Sales Qualification Summary](Productivity%20-%20AE%20Support%20Qualify%20Summary.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - AE Support Qualify Summary.png' | relative_url }}"
+  alt="AE Sales Qualification Summary"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### AE Sales 12 Month Rolling — Full View
-![AE Sales 12 Month Rolling Full](Productivity%20-%20AE%20Support%20Qualify%20Details.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - AE Support Qualify Details.png' | relative_url }}"
+  alt="AE Sales 12 Month Rolling Full"
+  style="width: min(100%, 980px); height: auto;"
+/>
 
 ### AE Sales 12 Month Rolling — Single AE
 *Six-state custom icons built in Figma and imported via theme JSON, encoding qualification level and COS assignment status in a single visual element.*
-![AE Sales 12 Month Rolling Single AE](Productivity%20-%20AE%20Support%20Qualify%20Details%20%281%20person%29.png)
+<img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - AE Support Qualify Details (1 person).png' | relative_url }}"
+  alt="AE Sales 12 Month Rolling Single AE"
+  style="width: min(100%, 980px); height: auto;"
+/>
