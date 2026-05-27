@@ -119,3 +119,7 @@ For the portfolio version, the report was rebuilt from scratch using synthetic d
   alt="AE Sales 12 Month Rolling Single AE"
   style="width: min(100%, 980px); height: auto;"
 />
+
+<a class="resume-button" href="{{ 'data/case-studies/' | relative_url }}" aria-label="Back to Projects">
+  <span>Back to Projects</span>
+</a>
