@@ -28,46 +28,46 @@ For the portfolio version, the report was rebuilt from scratch using synthetic d
 
 ### Executive AE
 *Leadership summary page showing revenue, GP, and quote/order volume with COS support breakdown across all metrics.*
-![Executive AE](../assets/images/sns-exec-ae.png)
+![Executive AE](Productivity%20-%20Exec%20AE.png)
 
 ### Executive ClientOps
 *Mirror page from the COS team lens, pre-filtered to a single team.*
-![Executive ClientOps](../assets/images/sns-exec-cos.png)
+![Executive ClientOps](Productivity%20-%20Exec%20COS.png)
 
 ### Client Ops Summary
 *At-a-glance team comparison with COS count and full metric breakdown per team. No team filter — the columns are structural.*
-![Client Ops Summary](../assets/images/sns-cos-summary.png)
+![Client Ops Summary](Productivity%20-%20COS%20Summary.png)
 
 ### ClientOps Team Summary
 *Team-level detail with field parameter-driven column selection and bookmark-based table toggle.*
-![ClientOps Team Summary](../assets/images/sns-cos-team-summary.png)
+![ClientOps Team Summary](Productivity%20-%20COS%20Team%20Summary.png)
 
 ### ClientOps Team Detail
 *Full metric matrix with conditional formatting arrows and QoQ/YoY comparisons per COS/AE pairing.*
-![ClientOps Team Detail](../assets/images/sns-cos-team-detail.png)
+![ClientOps Team Detail](Productivity%20-%20COS%20Team%20Detail.png)
 
 ### AE Team Summary
 *AE-side equivalent of the Client Ops Summary, with COS support percentage visible on every volume metric.*
-![AE Team Summary](../assets/images/sns-ae-summary.png)
+![AE Team Summary](Productivity%20-%20AE%20Team%20Summary.png)
 
 ### Account Executives
 *Expandable matrix with context-sensitive percentage denominators shifting by hierarchy level.*
-![Account Executives](../assets/images/sns-account-executives.png)
+![Account Executives](Productivity%20-%20AE.png)
 
 ### AE Team Detail — YoY
-![AE Team Detail YoY](../assets/images/sns-ae-detail-yoy.png)
+![AE Team Detail YoY](Productivity%20-%20AE%20Team%20Detail%20YoY.png)
 
 ### AE Team Detail — MoM
 *MoM/YoY toggle implemented via bookmarks and styled buttons — no native toggle exists in Power BI.*
-![AE Team Detail MoM](../assets/images/sns-ae-detail-mom.png)
+![AE Team Detail MoM](Productivity%20-%20AE%20Team%20Detail%20MoM.png)
 
 ### AE Sales Qualification Summary
 *DAX-driven qualification classification across Hardware and Software thresholds, with dynamic support assignment indicators.*
-![AE Sales Qualification Summary](../assets/images/sns-qualification-summary.png)
+![AE Sales Qualification Summary](Productivity%20-%20AE%20Support%20Qualify%20Summary.png)
 
 ### AE Sales 12 Month Rolling — Full View
-![AE Sales 12 Month Rolling Full](../assets/images/sns-rolling-full.png)
+![AE Sales 12 Month Rolling Full](Productivity%20-%20AE%20Support%20Qualify%20Details.png)
 
 ### AE Sales 12 Month Rolling — Single AE
 *Six-state custom icons built in Figma and imported via theme JSON, encoding qualification level and COS assignment status in a single visual element.*
-![AE Sales 12 Month Rolling Single AE](../assets/images/sns-rolling-single.png)
+![AE Sales 12 Month Rolling Single AE](Productivity%20-%20AE%20Support%20Qualify%20Details%20%281%20person%29.png)
