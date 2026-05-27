@@ -24,7 +24,7 @@ title: Projects
           <span class="expertise-tag project-tool-pill">Figma</span>
         </div>
       </div>
-      <p>Power BI dashboards built because the COS team had no visibility into their own performance.</p>
+      <p>Four years in production, grown through real stakeholder demand. Built to give a Client Operations team the visibility that every standard company report denied them.</p>
     </div>
   </a>
 </div>
