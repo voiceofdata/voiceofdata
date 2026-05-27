@@ -6,8 +6,35 @@ title: Projects
 # Featured Project
 
 <div class="project-cards project-cards-featured">
-  <a class="project-card project-card-horizontal project-card-featured" href="{{ 'data/case-studies/servicenow-itsm/' | relative_url }}">
+  <a class="project-card project-card-horizontal project-card-featured" href="{{ 'data/case-studies/sales-support-productivity/' | relative_url }}">
   <img
+  src="{{ '/data/case-studies/sales-support-productivity/Productivity - Exec AE.png' | relative_url }}"
+  alt="Executive AE"
+  style="width: min(100%, 980px); height: auto;"
+  />
+    <div class="project-card-content">
+      <div class="project-card-heading">
+        <h3>Sales and Support Productivity</h3>
+        <div class="project-tools case-study-tools" aria-label="Tools used">
+          <span class="expertise-tag project-tool-pill">Power BI</span>
+          <span class="expertise-tag project-tool-pill">DAX</span>
+          <span class="expertise-tag project-tool-pill">Power Query</span>
+          <span class="expertise-tag project-tool-pill">Figma</span>
+        </div>
+      </div>
+      <p>Power BI dashboards built because the COS team had no visibility into their own performance.</p>
+    </div>
+  </a>
+</div>
+
+<hr class="project-section-divider" />
+
+## Projects
+
+<div class="project-cards project-cards-list">
+
+   <a class="project-card project-card-horizontal" href="{{ 'data/case-studies/servicenow-itsm/' | relative_url }}">
+    <img
       class="project-card-image project-card-image-preview"
       src="{{ 'data/case-studies/servicenow-itsm/SN-ITSM-IncidentOverview.png' | relative_url }}"
       alt="Incident Overview"
@@ -29,12 +56,8 @@ title: Projects
     </div>
   </a>
 </div>
-
-<hr class="project-section-divider" />
-
-## Projects
-
-<div class="project-cards project-cards-list">
+  </a>
+  
   <a class="project-card project-card-horizontal" href="{{ 'data/case-studies/renewals-reporting/' | relative_url }}">
   <img
       class="project-card-image project-card-image-preview"
