@@ -83,6 +83,17 @@ This portfolio is a mix of structured projects and working examples—some are f
 # Projects
 
 <div class="project-cards">
+  <a class="project-card" href="{{ '/data/case-studies/sales-support-productivity/' | relative_url }}">
+    <img
+      class="project-card-image project-card-image-preview"
+      src="{{ '/data/case-studies/sales-support-productivity/Productivity - Exec AE.png' | relative_url }}"
+      alt="Sales and Support Productivity executive AE dashboard screenshot"
+      loading="lazy"
+    />
+    <h3>Sales and Support Productivity</h3>
+    <p>Power BI report built because the COS team had no visibility into their own performance.</p>
+  </a>
+
   <a class="project-card" href="{{ '/data/case-studies/servicenow-itsm/' | relative_url }}">
     <img
       class="project-card-image project-card-image-preview"
@@ -93,18 +104,6 @@ This portfolio is a mix of structured projects and working examples—some are f
     <h3>ITSM Client Facing Reporting</h3>
     <p>
 A Power BI ITSM report inherited from a departed developer — rebuilt from the ground up around what the managed services team actually used in client meetings. Four pages, 40+ measures, and a third party global outage spike that told its own story.</p>
-  </a>
-  
-  <a class="project-card" href="{{ '/data/case-studies/renewals-reporting/' | relative_url }}">
-    <img
-      class="project-card-image project-card-image-preview"
-      src="{{ '/data/case-studies/renewals-reporting/IntRenewalThumb.png' | relative_url }}"
-      alt="Renewal Summary dashboard screenshot"
-      loading="lazy"
-    />
-    <h3>Internal Renewals Reporting</h3>
-    <p>
-Ops staff had no view of their own renewals (the company portal was built around AEs) resulting in several report runs to get a full picture. Started as a personal project, adopted by the full team within six weeks, and ended up in Director meetings.</p>
   </a>
 
   <a class="project-card" href="{{ '/data/case-studies/clientrenewaltracking/' | relative_url }}">
