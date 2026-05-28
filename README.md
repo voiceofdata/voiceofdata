@@ -1,29 +1,22 @@
-## Well, Hello There! 👋
-My name is Janice (aka the Voice of Data) 😊
+# Voice of Data
 
-Welcome to my little corner of GitHub. I'm a Business Intelligence Analyst who believes that data doesn't just inform—it tells a story. My job is to give it voice.
+I'm a Business Intelligence Analyst. I figure out what stakeholders actually need (which isn't always what they're asking for...), track down where the data lives, and build reporting that answers the question they asked and surfaces what they didn't know to ask about.
 
-🎯 **What I do**  
-- Translate business questions into actionable insights  
-- Build interactive dashboards (Power BI is my jam)   
-- Blend curiosity, logic, and clarity to solve real problems
+**Core skills:**
 
-🛠️ **Tech I use regularly**  
-Power BI • PowerQuery • Excel • ServiceNow Reporting 
+**BI & Visualization:** Power BI · Excel · Power Query
 
-🌱 **In Progress**  
-- Building out my project portfolio  
-- Launching [voiceofdata.ca](https://voiceofdata.ca/)  
-- Telling better stories with data, one question at a time
+**Data Modelling:** Semantic Layer Design · Star Schema · DAX · Calculated Measures & KPIs · TMDL
+
+**Query & Data:** SQL · Data Reconciliation · Databricks (validation & review) · ETL / Data Transformation
+
+**Practices & Concepts:** KPI Definition & Governance · Self-Service Reporting Design · Stakeholder Reporting · Data Storytelling · Dashboard Performance & Maintainability
+
 
 ---
 
-📚 **Case Studies**
+## Case Studies
 
-I’ve started documenting some of my favourite real-world analytics stories — where curiosity met impact.  
-Each one explores the process behind the dashboards, decisions, and discoveries.
-
-- [Renewals Reporting — SOAR Case Study](data/case-studies/renewals-reporting.md)
-
-More to come as my portfolio grows!
-
+- [Sales and Support Productivity](https://janicewhitson.github.io/voiceofdata/data/case-studies/sales-support-productivity/index.md)
+- [ITSM Client-Facing Reporting](https://janicewhitson.github.io/voiceofdata/data/case-studies/servicenow-itsm/index.md)
+- [Client Renewal Tracker](https://janicewhitson.github.io/voiceofdata/data/case-studies/clientrenewaltracking/index.md)
