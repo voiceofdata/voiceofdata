@@ -46,6 +46,7 @@ This portfolio is a mix of structured projects and working examples—some are f
       <span class="expertise-tag">Star Schema</span>
       <span class="expertise-tag">DAX</span>
       <span class="expertise-tag">Calculated Measures &amp; KPIs</span>
+      <span class="expertise-tag">TMDL</span>
     </div>
   </div>
 
@@ -55,6 +56,7 @@ This portfolio is a mix of structured projects and working examples—some are f
       <span class="expertise-tag">SQL</span>
       <span class="expertise-tag">Data Reconciliation</span>
       <span class="expertise-tag">Databricks (validation &amp; review)</span>
+      <span class="expertise-tag">ETL / Data Transformation</span>
     </div>
   </div>
 
